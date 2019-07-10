@@ -27,6 +27,9 @@ heroku buildpacks:add heroku-community/awscli
 # 下記コマンドで、heroku-community/awscliが表示されればOK
 heroku buildpacks
 
+# install cron addon
+heroku addons:create scheduler:standard
+
 # heroku config:set 環境変数名=セットしたい値
 heroku config:add AWS_ACCESS_KEY_ID=<your aws-access-key>
 heroku config:add AWS_SECRET_ACCESS_KEY=<your aws-secret-access-key>
@@ -40,3 +43,8 @@ heroku config:add TZ=Asia/Tokyo
 heroku login
 git push heroku master
 ```
+
+### how to setup scheduler
+
+![](https://github.com/yukimura1227/cloud_instance_auto_stopper/master/create_job.png)
+![](https://github.com/yukimura1227/cloud_instance_auto_stopper/master/set_schedule.png)
