@@ -35,7 +35,6 @@ heroku config:add AWS_ACCESS_KEY_ID=<your aws-access-key>
 heroku config:add AWS_SECRET_ACCESS_KEY=<your aws-secret-access-key>
 heroku config:add AWS_DEFAULT_REGION=<your default-aws-region>
 heroku config:add AWS_TARGET_INSTANCE_IDS="<target instance id1> [id2] [id3]..."
-heroku config:add TZ=Asia/Tokyo
 ```
 
 ```
