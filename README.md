@@ -46,5 +46,5 @@ git push heroku master
 
 ### how to setup scheduler
 
-![](https://github.com/yukimura1227/cloud_instance_auto_stopper/master/create_job.png)
-![](https://github.com/yukimura1227/cloud_instance_auto_stopper/master/set_schedule.png)
+![](https://raw.githubusercontent.com/yukimura1227/cloud_instance_auto_stopper/master/create_job.png)
+![](https://raw.githubusercontent.com/yukimura1227/cloud_instance_auto_stopper/master/set_schedule.png)
